@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">The OverPriced Coffee Cafe</string>
+    <string-array name="food_options_array">
+        <item>Plain black</item>
+        <item>Caffè Americano</item>
+        <item>Cappuccino</item>
+        <item>Cortado</item>
+        <item>Flat white</item>
+        <item>Caffè macchiato</item>
+        <item>Latte</item>
+        <item>Ristretto</item>
+        <item>Café au lait</item>
+        <item>Caffè mocha</item>
+        <item>Cold brew coffee</item>
+        <item>Affogato</item>
+        <item>Iced coffee</item>
+        <item>Irish coffee</item>
+    </string-array>
+</resources>
