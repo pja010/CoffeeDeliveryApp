@@ -11,6 +11,9 @@ public class UserInformationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_information);
+        Intent testIntent = new Intent(UserInformationActivity.this, OrderStatusActivity.class);
+        String userInfo = null;
+        testIntent.putExtra("USER_INFO_STRING", userInfo);
     }
 
     public void confirmOrder(View view) {

@@ -13,43 +13,55 @@ android:paddingRight="16dp"
 android:paddingTop="60dp"
 tools:context=".MainActivity">
 
-    <TextView
-            android:text="The Overpriced Coffee Cafe"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:id="@+id/textViewCafeName"
-            android:textSize="18sp" android:textStyle="italic"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/text"/>
+<!--    <TextView-->
+<!--            android:text="Menu"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            android:id="@+id/textViewCafeName"-->
+<!--            android:textSize="18sp" android:textStyle="italic"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintBottom_toTopOf="@+id/text"/>-->
 
     <TextView
-            android:text="What would you like to order?"
+            android:text="Welcome to the Overpriced Coffee Cafe!"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/orderPrompt"
-            app:layout_constraintBottom_toTopOf="@+id/food_choice_spinner"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:textSize="18sp"
-            android:layout_marginTop="144dp"/>
-    <Spinner
-            android:layout_width="160dp"
-            android:layout_height="50dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:id="@+id/food_choice_spinner"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            android:scrollbarSize="8dp"/>
+            android:textSize="20dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold|italic"
+            android:paddingTop="100dp"
+
+            android:paddingBottom="100dp"
+            android:layout_marginTop="0dp"/>
+
+<!--    <Spinner-->
+<!--            android:layout_width="160dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            android:id="@+id/food_choice_spinner"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            android:scrollbarSize="8dp"/>-->
+
+<!--    <ListView-->
+<!--            android:id="@+id/order_options_list"-->
+<!--            android:layout_width="match_parent"-->
+<!--              android:layout_height="wrap_content"-->
+<!--              android:entries="@array/coffee_options_array"/>-->
 
     <Button
 
             android:id="@+id/confirmation_button"
-        android:layout_gravity="bottom|right"
-            android:text="Confirm choice"
+
+        android:layout_gravity="bottom|center"
+            android:text="New order"
         android:onClick="confirmChoice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
