@@ -71,7 +71,7 @@ The next logical step was to update the Android application itself with the abil
 the server using the RESTful API.
 
 
-## Modifying the Application to send API Requests
+### Modifying the Application to send API Requests
 The question to address for this last part was: how would I be able to pass data from the client
 (customer-side of the application) to the server database?
 As we have implemented a basic RESTful API, we would like to use a library to be able to send
